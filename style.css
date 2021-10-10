@@ -6,26 +6,43 @@ body {
     flex-direction: column;
 }
 
-.header {
-    background-color: rgb(85, 83, 83);
-}
+
 
 .kiko {
     color: cornsilk;
     font-size: 27px;
-    padding-left: 10px;
+    padding-left: 130px;
     font-family: 'Times New Roman', Times, serif;
+
 }
 
 .right-links {
     color: cornsilk;
-    font-size: 17px;   
+    font-size: 17px;
+}
+
+a {
+    color: cornsilk;
+    text-decoration: none;
 }
 
 .img {
     max-width: 100%;
     height: auto;
 }
+
+.head {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+
+}
+
 
 
 
@@ -35,7 +52,6 @@ body {
 .navbar {
     display: flex;
     align-items: center;
-    border-style: soli;
     justify-content: space-between;
     padding-right: 35px;
 
@@ -47,33 +63,45 @@ ul {
     gap: 30px;
 }
 
+/* Hero section */
+
 .hero {
     height: 200px;
     display: flex;
     flex: 1;
     align-items: center;
-    margin-top: 50px;
+    justify-content: flex-start;
+    border-style: soli;
+    margin-top: 100px;
     gap: 200px;
 
 }
 
-.head1 .img {
+.kiko-img {
+    display: flex;
     flex: 1;
+    align-items: center;
+    width: 400px;
+    height: 325px;
+    overflow: hidden;
+    padding-right: 120px;
+
 } 
 
 .head1 {
     display: flex;
     flex-direction: column;
     flex: 1;
-    justify-content: center;
-    align-items: center;
-    border-style: solid;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-style: soli;
     gap: 30px;
-
+    padding-left: 150px;
+    text-align: left;
 }
 
 .head{
-    padding: 30px;
+    padding: 5px;
     align-items: center;
     text-align: center;
     font-size: 50px;
@@ -83,19 +111,145 @@ ul {
 
 .text {
    padding-right: 20px;
-   padding-left: 20px;
 }
 
-img {
+.button {
+    background-color: #3882f6;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+/* Some random information section */
+
+.container {
+    margin-top: 100px;
     display: flex;
     flex: 1;
-    height: auto;
-    width: 250px;
+    flex-direction: column;
+    border-style: soid;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
 
 }
 
-.kiko-img {
+.info {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    max-width: 300px;
+    border-style: soid;
+    height: 300px;
+}
+
+.title {
+    display: flex;
+    flex: 1;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    justify-content: center;
+    margin: 32px;
+}
+
+.subtext {
+    flex: 1;
+    display: flex;
+    gap: 30px;
+    
+}
+
+.sub-img {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 300px;
+    height: auto;
+    overflow: hidden;
+    border-radius: 30px;
+}
+
+.fonts {
+    color: rgb(85, 80, 85);
+    font-size: 15px;
+    font-weight: 700;
+}
+
+/* Testimonial section */
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.text-testimonial {
+    display: flex;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    justify-content: center;
+}
+
+.customer {
+    text-align: end;
+    font-size: 20px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+
+/* CTA section */
+
+.cta {
+    text-align: center;
+    background-color: white;
+    margin: 50px;
+    border-radius: 15px;
+    margin-left: 250px;
+    margin-right: 250px;
+    display: flex;
     justify-content: center;
     align-items: center;
-    padding-right: 120px;
+    gap: 150px;
+}
+
+.call-to-action {
+    font-size: 20px;
+    font-weight: 800;
+    color: #1F2937;
+    inline-size: 500px;
+}
+
+.cta-button {
+    background-color: #3882f6;
+    width: 130px;
+    height: 40px;
+    border-radius: 15px;
+}
+
+/* Footer section */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+}
+
+.footer-p {
+    align-items: center;
+    color: #121820;
+    font-weight: 800;
+}
+
+.I {
+    display: flex;
+    color: #121820;
+    font-weight: 800;
+    gap: 10px;
 }
